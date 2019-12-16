@@ -4,4 +4,9 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Lombardy.Base\source\R5T.Lombardy.Base\R5T.Lombardy.Base.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Smyni.Base\source\R5T.Smyni.Base\R5T.Smyni.Base.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Smyni.Types\source\R5T.Smyni.Types\R5T.Smyni.Types.csproj" />
+  </ItemGroup>
 </Project>
