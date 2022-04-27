@@ -1,12 +1,12 @@
-﻿using System;
+using System;
 
 using R5T.Lombardy;
-using R5T.Smyni.Types;
+using R5T.Smyni.Types;using R5T.T0064;
 
 
 namespace R5T.Smyni.Default
-{
-    public class VisualStudioSolutionFilePathProvider : IVisualStudioSolutionFilePathProvider
+{[ServiceImplementationMarker]
+    public class VisualStudioSolutionFilePathProvider : IVisualStudioSolutionFilePathProvider,IServiceImplementation
     {
         private IFileNameOperator FileNameOperator { get; }
         private IStringlyTypedPathOperator StringlyTypedPathOperator { get; }
